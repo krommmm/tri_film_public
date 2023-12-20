@@ -28,18 +28,12 @@ Ajouter les films manuellement dans le dossier films<br>
 Demarer en local sur le fichier index.html pour ne pas à télécharger les films
  
 ## Variables d'environnement:
-> Créer un fichier .env dans le directory à la racine.<br>
-> PORT = 2000<br>
-> IDENTIFIANTS= MDB_USER:MDB_PASSWORD<br>
-> SECRET_KEY = "ADD_A_SECRET_KEY" <br>
+A la racine du back : <br>
+> USER="identifiants mongodb"<br>
+> PASSWORD="passwordMongodb"<br>
+> SECRET_KEY="chaine de charactères"<br>
 
 ### Installer node.js
-
-### Ajouter variables d'environnement
-A la racine du back : 
-USER="identifiants mongodb"
-PASSWORD="passwordMongodb"
-SECRET_KEY="chaine de charactères"
 
 ### Installer les dépendances:
 
