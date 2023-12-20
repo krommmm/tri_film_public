@@ -1,5 +1,5 @@
 
-# trieuse de Film 
+# Trieuse de Film 
 
 ## Application qui créer des fiches pour des films
 
