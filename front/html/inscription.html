@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Netflix inscription</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css" />
+    <link rel="icon" type="image/png" href="../assets/images/icon/netflix_icon.png" /> 
+</head>
+
+<body>
+    <header>
+        <nav><img src="../assets/images/logo/logo.png" alt="logo"/></nav></header>'
+    </header>
+    <section>
+        <div class="formulaire_container"> 
+            <h1>S'inscrire</h1>
+            <div class="error errorInscription hidden">identifiants incomplets/réservés</div>
+            <div class="success inscriptionReussie hidden">Utilisateur créé.</div>
+            <form id="formulaireInscription">
+                <input class="input nameInput" type="text" placeholder="Name" />
+                <p class="msg_error msgErrorNom hidden">Veuillez saisir un nom de plus de deux lettres</p>
+                <input class="input emailInput" type="email"  placeholder="E-mail" />
+                <p class="msg_error msgErrorEmail hidden">Veuillez saisir une adresse e-mail valide.</p>
+                <input class="input mdpInput" type="password"placeholder="mot de passe">
+                <p class="msg_error msgErrorMdp hidden">Votre mot de passe doit au moins 4 charactères.</p>
+                <input type="submit" value="S'inscrire"  class="btn_red inscriptionInput"/>
+            </form>
+            <p><span class="grey">Déjà inscrit ?</span> <a href="../../index.html"><span class="switch_log">Connectez-vous</span></a></p>
+        </div>
+
+    </section>
+    <footer>
+        <p>Netflix</p>
+        <p>bla bla bla</p>
+        <p>De 2015 à <span class="annee_container"></span></p>
+        </footer>
+    <script src="../../dist/bundle.js"></script>
+</body>
+
+</html>

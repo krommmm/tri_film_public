@@ -1,0 +1,21 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 15px;
+}
+header #logo {
+	width: 160px;
+	margin-left: 30px;
+}
+
+.choixDuMode {
+	width: 400px;
+	display: flex;
+	justify-content: space-evenly;
+
+	left: 35%;
+}
+
+

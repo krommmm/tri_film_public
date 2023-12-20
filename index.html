@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Netflix connexion</title>
+		<link rel="stylesheet" type="text/css" href="./front/assets/css/styles.css" />
+		<link rel="icon" type="image/png" href="./front/assets/images/icon/netflix_ico.png" />
+	</head>
+	<body>
+		<header>
+			<nav><img src="./front/assets/images/logo/logo.png" alt="logo"/></nav></header>'
+		</header>
+	
+		<section>
+			<div class="formulaire_container">
+				<h1>S'identifier</h1>
+			<div class="errorCo hidden">Paire login/mdp inccorecte.</div>
+				<form id="formulaireConnexion">
+					<input class="emailInputCo" type="email" name="email" placeholder="E-mail" />
+					<p class="msg_error msgErrorEmailCo hidden">Veuillez saisir une adresse e-mail valide.</p>
+					<input class="mdpCo" type="password" name="password" placeholder="mot de passe" />
+					<p class="msg_error msgErrorMdp hidden">Votre mot de passe doit au moins 4 charactères.</p>
+					<input type="submit" value="S'identifier" class="btn_red"/>
+				</form>
+				<p><span class="grey">Première fois sur netflix ?</span> <a href="./front/html/inscription.html"><span
+							class="switch_log">Inscrivez-vous</span></a></p>
+			</div>
+	
+		</section>
+		<footer>
+			<p>Netflix</p>
+			<p>bla bla bla</p>
+			<p>De 2015 à <span class="annee_container"></span></p>
+			</footer>
+		<script src="./dist/bundle.js"></script>
+	</body>
+</html>

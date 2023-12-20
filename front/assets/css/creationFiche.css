@@ -1,0 +1,165 @@
+.visible {
+	transform: translateX(0%);
+}
+.invisible {
+	transform: translateX(-800px);
+}
+.section {
+	transition-duration: 1s;
+}
+
+#question {
+	display: flex;
+	justify-content: center;
+}
+#ficheRealisateurInput{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#question .container {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	animation-name: float-left;
+	animation-duration: 0.8s;
+}
+#ficheImageInput{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.medium{
+	width: 200px!important;
+}
+
+@keyframes float-left {
+	0% {
+		transform: translateX(50%);
+		opacity: 0%;
+	}
+	100% {
+		transform: translateX(0%);
+		opacity: 100%;
+	}
+}
+#question .container h2 {
+	font-size: 32px;
+	color: #333;
+}
+
+#question .container input {
+	margin-bottom: 30px;
+}
+
+#dropArea {
+	width: 300px;
+	height: 300px;
+	border: 2px dashed black;
+	text-align: center;
+	padding: 20px;
+	margin: 50px auto;
+}
+
+#fileInput {
+	max-width: 200px;
+}
+
+.fileLabel {
+	overflow: hidden;
+	position: relative;
+}
+
+.fileLabel input[type='file'] {
+	display: block;
+	font-size: 999px; /* Utilisez une taille de police très grande pour masquer le texte de l'input */
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+	cursor: pointer; /* Ajoutez le curseur pointer pour indiquer que l'élément est cliquable */
+}
+
+#myImage {
+	transition-duration: 1s;
+	width: 200px;
+	height: 200px;
+	transform: translateY(-800px);
+}
+
+#question .container .newFile {
+	height: 100%;
+}
+
+.genre {
+	width: 150px;
+	height: 150px;
+	background-color: rgb(46, 48, 59);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px;
+	border-radius: 50%;
+	background-size: cover;
+	background-position-x: center;
+	cursor: pointer;
+}
+.genre_container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.genre p {
+	font-weight: 600;
+	font-size: 28px;
+}
+.genre_sf {
+	background-image: url('../images/gifs/entry.gif');
+}
+.genre_anime {
+	background-image: url('../images/gifs/cartoon.gif');
+}
+
+.genre_action {
+	background-image: url('../images/gifs/action.gif');
+}
+.genre_drame {
+	background-image: url('../images/gifs/drama.gif');
+}
+.genre_horreur {
+	background-image: url('../images/gifs/horror.gif');
+}
+.genre_romance {
+	background-image: url('../images/gifs/romance.gif');
+}
+.genre_fantastique {
+	background-image: url('../images/gifs/lotr.gif');
+}
+.genre_thriller {
+	background-image: url('../images/gifs/thriller.gif');
+}
+.genre_comedie {
+	background-image: url('../images/gifs/comedie.gif');
+}
+.genre_aventure {
+	background-image: url('../images/gifs/aventure.gif');
+}
+
+.genre:hover {
+	box-shadow: 0px 0px 10px hsl(360, 100%, 60%);
+}
+
+.nextDirector{
+    max-width: 200px!important;
+    margin-top:30px;
+}
+.center{
+    display:flex!important;
+    align-items: center!important;
+    justify-content:center!important;
+
+}

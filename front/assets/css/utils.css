@@ -1,0 +1,75 @@
+.btn {
+	padding: 15px;
+	width: auto;
+	font-size: 1em;
+	border: 0;
+	border-radius: 5px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.btn-lecture {
+	padding: 10px;
+	background-color: white;
+	color: black;
+	font-weight: 600;
+	border: none;
+	border-radius: 5px;
+	width: 200px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+.btn-lecture:active {
+	transform: scaleX(0.8);
+}
+
+.red {
+	background-color: #e50914;
+	color: white;
+}
+.redBlack {
+	background-color: rgba(255, 255, 255, 0.3);
+	color: black;
+}
+.green {
+	background: green;
+	color: white;
+}
+
+.btn_header {
+	color: #333;
+	font-size: 19px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.btn_header:hover {
+	text-decoration: underline;
+}
+
+.gras {
+	font-weight: 600;
+}
+
+.paraHeader {
+	color: white;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+.paraHeader:hover {
+	color: red;
+}
+.scale {
+	transition-duration: 0.2s;
+}
+.scale:active {
+	transform: scaleX(0.8);
+}
+
+@font-face {
+	font-family: mandalore;
+	src: url('../assets/fonts/mandalore.ttf');
+}
